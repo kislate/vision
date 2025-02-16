@@ -1,0 +1,6 @@
+<launch>
+    <!-- Hough Circle Detector Node -->
+    <node name="qrcode_detector_node" pkg="opencv_cpp_yolov5" type="qrcode_detector_node">
+        <param name="pubImg" value="true" />
+    </node>
+</launch>
